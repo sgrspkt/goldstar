@@ -1,0 +1,16 @@
+[vc_row el_class="full-width"][vc_column][james_map map_height="500" map_zoom="15" lat1="PallMall" long1="London" address1="England" marker1="4131"][/vc_column][/vc_row][vc_row el_class="contact-page"][vc_column width="1/3" el_class="contact-info"][vc_column_text]
+<h3>our office</h3>
+[/vc_column_text][vc_column_text css=".vc_custom_1450708450531{margin-bottom: 20px !important;}"]
+<ul class="address">
+	<li><span class="fa fa-map-marker"> </span> Addresss: Lorem ipsum dolor</li>
+	<li><span class="fa fa-phone"> </span> (800) 0123 4567 890</li>
+	<li><span class="fa fa-envelope-o"> </span> support@tokithemes.com</li>
+	<li class="last"><span class="fa fa-map-marker"> </span> Australia place nice</li>
+</ul>
+[/vc_column_text][vc_column_text]
+<div class="contact-btns"><a title="Facebook" href="http://facebook.com" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i>facebook</a>
+<a title="Twitter" href="http://twitter.com" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i>Twitter</a>
+<a title="Pinterest" href="https://www.pinterest.com" target="_blank" rel="nofollow"><i class="fa fa-pinterest"></i>Pinterest</a></div>
+[/vc_column_text][/vc_column][vc_column width="2/3"][vc_column_text]
+<h3>Contact us</h3>
+[/vc_column_text][contact-form-7 id="4"][/vc_column][/vc_row]

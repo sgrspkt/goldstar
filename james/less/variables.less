@@ -1,0 +1,104 @@
+// Typography
+
+@bodyfont: @body_font, Arial, Helvetica, sans-serif;
+@textcolor: @text_color;
+@textsize: @text_size;
+@textselectedcolor: @text_selected_color;
+@textselectedbg: @text_selected_bg;
+
+@headingfont: @heading_font, Arial, Helvetica, sans-serif;
+@headingcolor: @heading_color;
+@headingfontweight: @heading_font_weight;
+
+@menufont: @menu_font, Arial, Helvetica, sans-serif;
+@menucolor: @menu_color;
+@menufontsize: @menu_font_size;
+@menufontweight: @menu_font_weight;
+
+@submenubg: @sub_menu_bg;
+@submenucolor: @sub_menu_color;
+
+@vmenufont: @vmenu_font, Arial, Helvetica, sans-serif;
+@vmenucolor: @vmenu_color;
+@vmenufontsize: @vmenu_font_size;
+@vmenufontweight: @vmenu_font_weight;
+
+@vsubmenubg: @vsub_menu_bg;
+
+@linkcolor: @link_color;
+@linkhovercolor: @link_hover_color;
+@linkactivecolor: @link_active_color;
+
+
+// Colors
+
+@primarycolor: @primary_color;
+@salecolor: @sale_color;
+@saletextcolor: @saletext_color;
+@ratecolor: @rate_color;
+
+//Topbar
+
+@topbarbg: @topbar_bg;
+@topbarcolor: @topbar_color;
+@topbarlinkcolor: @topbar_link_color;
+@topbarlinkhovercolor: @topbar_link_hover_color;
+@topbarlinkactivecolor: @topbar_link_active_color;
+
+//Header
+
+@headerbg: @header_bg;
+@headercolor: @header_color;
+@headerlinkcolor: @header_link_color;
+@headerlinkhovercolor: @header_link_hover_color;
+@headerlinkactivecolor: @header_active_hover_color;
+
+@headerstickybg: @header_sticky_bg;
+
+//Footer
+
+@footerbg: @footer_bg;
+@footercolor: @footer_color;
+@footerlinkcolor: @footer_link_color;
+@footerlinkhovercolor: @footer_link_hover_color;
+@footerlinkactivecolor: @footer_link_active_color;
+
+// Defined colors
+
+@darkcolor: #2f2f2f;
+@greycolor: #999999;
+@lightgreycolor: #bababa;
+@bordercolor: #eaeaea;
+
+
+.buttonMixin() {
+	background:@darkcolor;
+	border: none;
+	border-radius:0;
+	box-shadow: none;
+	color: #fff;
+	display: inline-block;
+	font-family: @headingfont;
+	font-size: 12px;
+	font-weight: normal;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 20px;
+	text-shadow: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	
+	&:hover {
+		background: @primarycolor;
+		color: #fff;
+		text-shadow: none;
+	}
+}
+.noneTextSelect() {
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */      
+}

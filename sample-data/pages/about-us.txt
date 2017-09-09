@@ -1,0 +1,21 @@
+[vc_row css=".vc_custom_1451966930615{padding-top: 200px !important;padding-bottom: 200px !important;background-image: url(http://demo.roadthemes.com/james/wp-content/uploads/2014/12/abouts.jpg?id=4503) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column width="1/2"][vc_column_text]
+<h1><span style="color: #ffffff;"><strong>about us</strong></span></h1>
+[/vc_column_text][/vc_column][vc_column width="1/2"][/vc_column][/vc_row][vc_row css=".vc_custom_1451358670310{margin-bottom: 50px !important;border-bottom-width: 1px !important;padding-top: 75px !important;padding-bottom: 75px !important;border-bottom-color: #eeeeee !important;border-bottom-style: solid !important;}"][vc_column width="1/2" css=".vc_custom_1451358358287{padding-right: 1px !important;}" el_class="about-us1"][vc_column_text css=".vc_custom_1451358861267{padding-top: 20px !important;padding-right: 40px !important;padding-bottom: 40px !important;padding-left: 40px !important;}"]
+<h2><span style="color: #a9a9a9;">who’s</span></h2>
+<h1>James</h1>
+[/vc_column_text][/vc_column][vc_column width="1/2"][vc_row_inner][vc_column_inner width="1/2"][vc_column_text]
+<h3>London Address</h3>
+34 Parer Place via Musk Avenue Kelvin Grove, QLD, 4059[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text]
+<h3>newyork Address</h3>
+34 Parer Place via Musk Avenue Kelvin Grove, QLD, 4059[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_column_text]Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.[/vc_column_text][/vc_column][/vc_row][vc_row css=".vc_custom_1451358164839{margin-bottom: 50px !important;}"][vc_column width="1/2"][vc_single_image image="4510" img_size="full" alignment="center"][/vc_column][vc_column width="1/2" el_class="about-us2"][vc_progress_bar values="%5B%7B%22label%22%3A%22Development%22%2C%22value%22%3A%2290%22%7D%2C%7B%22label%22%3A%22Design%22%2C%22value%22%3A%2280%22%7D%2C%7B%22label%22%3A%22Marketing%22%2C%22value%22%3A%2270%22%7D%2C%7B%22label%22%3A%22Claritas%22%2C%22value%22%3A%2260%22%7D%2C%7B%22label%22%3A%22Claritas%22%2C%22value%22%3A%2280%22%7D%5D" bgcolor="black" title="Our Skill" units="%" css=".vc_custom_1451359042142{padding-left: 20px !important;}"][/vc_column][/vc_row][vc_row css=".vc_custom_1451358097856{margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 40px !important;padding-right: 0px !important;padding-bottom: 30px !important;padding-left: 0px !important;background-color: #f2f2f2 !important;}"][vc_column][vc_column_text]
+<h1 style="text-align: center;"><strong>Meet our team of experts</strong></h1>
+[/vc_column_text][/vc_column][/vc_row][vc_row css=".vc_custom_1451358227518{margin-right: 0px !important;margin-bottom: 60px !important;margin-left: 0px !important;padding-top: 30px !important;padding-right: 0px !important;padding-bottom: 60px !important;padding-left: 0px !important;background-color: #f2f2f2 !important;}"][vc_column width="1/3"][vc_single_image image="4519" img_size="full" alignment="center"][vc_column_text]
+<h4 style="text-align: center;"><strong>JOHNY BRAVISSIMO</strong></h4>
+<h5 style="text-align: center;"><strong>designer</strong></h5>
+[/vc_column_text][/vc_column][vc_column width="1/3"][vc_single_image image="4517" img_size="full" alignment="center"][vc_column_text]
+<h4 style="text-align: center;"><strong>JOHNY BRAVISSIMO</strong></h4>
+<h5 style="text-align: center;"><strong>Marketer</strong></h5>
+[/vc_column_text][/vc_column][vc_column width="1/3"][vc_single_image image="4515" img_size="full" alignment="center"][vc_column_text]
+<h4 style="text-align: center;"><strong>JOHNY BRAVISSIMO</strong></h4>
+<h5 style="text-align: center;"><strong>CEO</strong></h5>
+[/vc_column_text][/vc_column][/vc_row]

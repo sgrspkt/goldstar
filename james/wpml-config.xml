@@ -1,0 +1,19 @@
+<wpml-config>
+    <admin-texts>
+        <key name="james_opt">
+			<key name="phone_number" />
+			<key name="mobile_menu_label" />
+			<key name="twitter_title" />
+			<key name="copyright" />
+			<key name="contact_us" />
+			<key name="related_project_title" />
+			<key name="upsells_title" />
+			<key name="crosssells_title" />
+			<key name="related_title" />
+			<key name="detail_link_text" />
+			<key name="quickview_link_text" />
+			<key name="blog_header_text" />
+			<key name="readmore_text" />
+        </key>
+    </admin-texts>
+</wpml-config>

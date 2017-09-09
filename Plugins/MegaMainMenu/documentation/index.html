@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Mega Main Menu | Manual</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="src/img/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="all" href="src/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="src/css/docs.css" />
+		<script type="text/javascript" src="src/js/jquery.js"></script>
+		<script type="text/javascript" src="src/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
+		<script type="text/javascript">
+			jQuery('body').scrollspy({ target: '#docs_navigation' })
+		</script>
+	</head>
+	<body data-spy="scroll" data-target="#docs_navigation">
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="m_logo col-md-2 col-sm-12 col-xs-12">
+					</div><!-- class="col-" -->
+					<div class="mmm col-md-8 col-sm-12 col-xs-12">
+						<span>Mega Main Menu</span>
+					</div><!-- class="col-" -->
+					<div class="coming col-md-2 col-sm-12 col-xs-12">
+					</div><!-- class="col-" -->
+				</div>
+			</div><!-- class="container" -->
+		</div><!-- class="header" -->
+		<div class="container">
+			<div class="row">
+				<div class="sidebar col-sm-3">
+					<div class="sidebar_overlayer">
+					</div>
+					<div id="docs_navigation" class="bs-sidebar hidden-print affix">
+						<ul class="nav bs-sidenav">            
+							<li>
+								<a href="#welcome">Welcome</a>
+							</li>
+							<li>
+								<a href="#quick_start">Quick Start Guide</a>
+								<ul class="nav">
+									<li><a href="#install">1) Install</a></li>
+									<li><a href="#set_menu_structure">2) Set Menu Structure for defined Location</a></li>
+									<li><a href="#activate">3) Activate</a></li>
+									<li><a href="#setup_items">4) Add and set up Menu Items</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#video_guides">Video Guides</a>
+							</li>
+							<li>
+								<a href="#general_settings">General Settings</a>
+								<ul class="nav">
+									<li><a href="#activation">Activation</a></li>
+									<li><a href="#logo_file">Logo Settings</a></li>
+									<li><a href="#layout">Layout Options: <em>Location</em></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#skin">Skin Settings</a>
+								<ul class="nav">
+									<li><a href="#additional_skin_settings">Additional Skin Settings</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#specific_options">Specific Options</a>
+							</li>
+							<li>
+								<a href="#menu_item_settings">Settings of the Definite Menu Item</a>
+								<ul class="nav">
+									<li><a href="#first_level_settings">Definite Item Settings</a></li>
+									<li><a href="#dropdown_settings">Settings of Dropdown Menus</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#update">Update</a>
+							</li>
+							<li>
+								<a href="#faq">FAQ</a>
+								<ul class="nav">
+									<li><a href="#max_input_vars">Lost settings after Save</a></li>
+									<li><a href="#ie9">Appearance in the IE9</a></li>
+									<li><a href="#sticky_on_mobile">Sticky on Mobile</a></li>
+									<li><a href="#static_searchbox">Static Search Box</a></li>
+									<li><a href="#remove_dropdown_arrows">Remove Dropdown Arrows</a></li>
+									<li><a href="#custom_css_avada">Cutom CSS - "Avada"</a></li>
+									<li><a href="#custom_css_x">Cutom CSS - "X"</a></li>
+									<li><a href="#custom_css_enfold">Cutom CSS - "Enfold"</a></li>
+									<li><a href="#custom_css_jupiter">Cutom CSS - "Jupiter"</a></li>
+									<li><a href="#custom_css_divi">Cutom CSS - "Divi"</a></li>
+									<li><a href="#custom_css_twentysixteen">Cutom CSS - "TwentySixteen"</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#for_developers">For Developers</a>
+								<ul class="nav">
+									<li><a href="#mmm_set_configuration">Set custom configuration</a></li>
+									<li><a href="#mmm_skin_extend">Add custom CSS</a></li>
+									<li><a href="#mmm_container_class">Add extra CSS classes</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#support">Support</a>
+							</li>
+						</ul>
+					</div><!-- class="sidebar" -->
+				</div><!-- class="sidebar" -->
+				<div class="primary_content col-sm-9">
+					<div class="bs-docs-section">
+						<div class="page-header no_top_margin">
+							<h1 id="welcome">Welcome</h1>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<p>We thank you for purchasing our product. Hope our product will be of great help for you to succeed. We appreciate your decision to read the manual before request for our support.</p>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<table class="table table-bordered">
+									<tr>
+										<td>
+											Project
+										</td>
+										<td>
+											Mega Main Menu
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Created
+										</td>
+										<td>
+											10 November 2013 at 12:00 GMT
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Author
+										</td>
+										<td>
+											MegaMain
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Author URI
+										</td>
+										<td>
+											<a href="http://megamain.com">megamain.com</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Support
+										</td>
+										<td>
+											<a href="http://support.megamain.com">support.megamain.com</a>
+										</td>
+									</tr>
+								</table>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+						<!-- /welcome -->
+
+						<div class="page-header">
+							<h1 id="quick_start">Quick Start Guide</h1>
+						</div>
+						<h4 id="install" class="small_caption">1) Install</h4>
+						<h4><small>Dashboard &#9658; Plugins &#9658; Add New &#9658; Upload</small></h4>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<p>Follow the next steps to setup plugin:</p>
+								<ol>
+									<li>
+										Extract file "mega_main_menu.zip" from the general archive to your computer;
+									</li>
+									<li>
+										Log in dashboard of your WordPress;
+									</li>
+									<li>
+										Next follow the way "Plugins -> Add New -> Upload";
+									</li>
+									<li>
+										In the file selection field you should choose "mega_main_menu.zip" stored in your computer, and click the button  "Install Now";
+									</li>
+									<li>
+										Don't forget to activate plugin.
+									</li>
+								</ol>
+								<p>If you followed all instructions correctly, the link "Mega Main Menu" should be added in the section "Appearance".</p>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<a href="src/img/sh_install.png"><img src="src/img/sh_install.png" /></a>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+
+
+						<h4 id="set_menu_structure" class="small_caption">2) Set Menu Structure for Defined Location</h4>
+						<h4><small>Dashboard &#9658; Appearance &#9658; Menus &#9658; Edit Menus</small></h4>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<p>If in your WP there is not yet created "Menu Structure" or you want to create a new Menu Structure for using it with "Mega Main Menu Plugin" – follow the next steps:</p>
+								<ol>
+									<li>
+										Click the link "create a new menu";
+									</li>
+									<li>
+										Type a new title for your menu (Example: "My Mega Menu");
+									</li>
+									<li>
+										Click the button "Create Menu".
+									</li>
+								</ol>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<a href="src/img/sh_create_menu.png"><img src="src/img/sh_create_menu.png" /></a>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<h4><small>Dashboard &#9658; Appearance &#9658; Menus &#9658; Manage Locations</small></h4>
+								<p>If you already have the created "Menu Structure" - set the necessary Menu Structure for the definite location.</p>
+								<p>Example: Select "My Mega Menu" for "primary_menu" theme location.</p>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<a href="src/img/sh_select_menu_location.png"><img src="src/img/sh_select_menu_location.png" /></a>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+
+
+						<h4 id="activate" class="small_caption">3) Activate</h4>
+						<h4><small>Dashboard &#9658; Mega Main Menu &#9658; General</small></h4>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<p>Mega Main Menu and its settings will be displayed in selected locations only after the activation of this location. Check the location(s) where you want to display Mega Main Menu.</p>
+								<p>Example: If you want to use "Mega Main Menu Plugin" in "primary_menu" location - check this location</p>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<a href="src/img/sh_activate.png"><img src="src/img/sh_activate.png" /></a>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+
+
+						<h4 id="setup_items" class="small_caption">4) Add and Set Up Menu Items</h4>
+						<h4><small>Dashboard &#9658; Appearance &#9658; Menus &#9658; Edit Menus</small></h4>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<p>Follow the next steps for set up menu item:</p>
+								<ol>
+									<li>
+										In the section "Pages" (or Links, or Categories) tick the page for which you want to create an item of menu and click the button "Add to menu" (your selected item of menu will be added in the section "Menu Structure").
+									</li>
+									<li>
+										Click the caret (arrow down) next to the title of added item of menu, all settings of this menu item will be unfolded.
+									</li>
+									<li>
+										Customize this menu item according to your requirements. <br /> &nbsp; &nbsp; &nbsp;Example: 
+										<ul>
+											<li>
+												Select icon; 
+											</li>
+											<li>
+												Select "Submenu type" on "Multicolumn Dropdown";
+											</li>
+											<li>
+												Set "Submenu Columns" on "3";
+											</li>
+											<li>
+												Check "Enable Full Width Dropdown"
+											</li>
+										</ul>
+									</li>
+									<li>
+										Save the changes in Menu Structure ("Save Menu" button).
+									</li>
+								</ol>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<a href="src/img/sh_setup_menu_item.png"><img src="src/img/sh_setup_menu_item.png" /></a>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+
+						<!-- /quick_start -->
+
+
+						<div class="page-header">
+							<h1 id="video_guides">Video Guides</h1>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 text-center">
+								<iframe width="100%" height="400" src="https://www.youtube.com/embed/9ntZIhaHPL8" frameborder="0" allowfullscreen></iframe>
+								<p>Install Guide</p>
+							</div>
+							<div class="col-xs-12 col-sm-12 text-center">
+							</div>
+							<div class="col-xs-12 col-sm-12 text-center">
+							</div>
+						</div><!-- /row -->
+
+						<!-- /video_guides -->
+
+
+						<div class="page-header">
+							<h1 id="general_settings">General Settings</h1>
+						</div>
+
+						<h4 id="activation" class="small_caption">Activation of the Mega Menu for the definite location of the theme</h4>
+						<h4><small>Dashboard &#9658; Mega Main Menu &#9658; General</small></h4>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<p>Mega Main Menu and its settings will be displayed in selected locations only after the activation of this location. Check the location(s) where you want to display Mega Main Menu.</p>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<a href="src/img/sh_activate.png"><img src="src/img/sh_activate.png" /></a>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+
+						<h4 id="logo_file" class="small_caption">Logo Settings</h4>
+						<h4><small>Dashboard &#9658; Mega Main Menu &#9658; General</small></h4>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<p>Here you can select the image-file for using it as a logo in the Menu and set its size. Select image to be used as logo in Main Mega Menu. It's recommended to use image with transparent background (.PNG) and sizes from 200 to 800 px. Then set height of the logo. You can set height of the logo in percentage to the height of the initial container (applicable values from 10 to 99 percent). Width of the logo is set up automatically to save proportions of the original logo image.</p>
+								<p>You can find instructions how to add selected logo to the definite menu in "<a href="#layout">Layout Options: <em>location</em></a> ".</p>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<a href="src/img/sh_logo.png"><img src="src/img/sh_logo.png" /></a>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+
+						<h4 id="layout" class="small_caption">Layout Options</h4>
+						<h4><small>Dashboard &#9658; Mega Main Menu &#9658; General &#9658; Layout Options: <em>location</em></small></h4>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<p>Firstly, you should decide for which menu location layout should be set.</p>
+								<p>In "Layout Options: <em>Location</em> " you can:</p>
+								<ul>
+									<li>
+										Add to the primary menu container: logo and (or) search.
+									</li>
+									<li>
+										Set height for the initial menu container and items of the first level.
+									</li>
+									<li>
+										Choose how to locate menu elements of the first level.
+									</li>
+									<li>
+										Choose where to locate icon for first level items.
+									</li>
+									<li>
+										Select type of separator between the first level items of this menu.
+									</li>
+									<li>
+										Set the value of corners radius.
+									</li>
+									<li>
+										Activate Menu Minimization on Handheld Devices.
+									</li>
+									<li>
+										Choose Menu Direction (Horizontal, Vertical).
+									</li>
+									<li>
+										Enable sticky menu.
+									</li>
+									<li>
+										Set sticky scroll offset.
+									</li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<a href="src/img/sh_layout_options.png"><img src="src/img/sh_layout_options.png" /></a>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+						<!-- /general_settings -->
+
+						<div class="page-header">
+							<h1 id="skin">Skin Settings</h1>
+						</div>
+						<h4><small>Dashboard &#9658; Mega Main Menu &#9658; Skins &#9658; Skin Options: <em>location</em></small></h4>
+						<p>Firstly, you should decide for which menu location skin should be set.</p>
+						<p>In "Skin Options: <em>location</em> " you can change:</p>
+						<h4 id="menu_bg_gradient" class="small_caption">1. Background Gradient (Color) of the Primary Container.</h4>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<p>If you want to use gradient follow the next steps:</p>
+								<ol>
+									<li>
+										Select the initial color of the gradient.
+									</li>
+									<li>
+										Select the final color of the gradient.
+									</li>
+									<li>
+										Set the starting and ending points of the transition color range from the first into the second color of the gradient.
+									</li>
+									<li>
+										Choose the direction of the gradient (Vertical, Horizontal or Radial).
+									</li>
+									<li>
+										Click the button "Click Here To View Result" to check how this gradient will be displayed.
+									</li>
+								</ol>
+								<p>If you want to use flat color - set the same color value for the first and second parameters.</p>
+								<p>If you want to set the background image for menu initial container - use the following option.</p>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<a href="src/img/sh_gradient.png"><img src="src/img/sh_gradient.png" /></a>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+						<h4 id="menu_bg_image" class="small_caption">2. The background image of the initial container.</h4>
+						<p>You can choose and tune the background image for the primary container.</p>
+						<p>Notice: the background image replaces the background gradient and only flat color stays for the background.</p>
+						<h4 id="menu_first_level_link_font" class="small_caption">3. Font for the first level items.</h4>
+						<h4 id="menu_first_level_icon_font" class="small_caption">4. The size of icons in first level items.</h4>
+						<h4 id="menu_first_level_link_color" class="small_caption">5. Text Color of the First Level Item.</h4>
+						<h4 id="menu_first_level_link_color_hover" class="small_caption">6. Text Color of the Active First Level Item.</h4>
+						<h4 id="menu_first_level_link_bg_hover" class="small_caption">7. Gradient (Color) of the background for the active first level item.</h4>
+						<p>The process of setting up the gradient or color for this element is the same as for "<a href="#menu_bg_gradient">Background Gradient (Color) of the Primary Container</a>".</p>
+						<h4 id="menu_dropdown_wrapper_gradient" class="small_caption">8. Background Gradient (Color) of the Dropdown elements.</h4>
+						<p>The process of setting up the gradient or color for this element is the same as for "<a href="#menu_bg_gradient">Background Gradient (Color) of the Primary Container</a>".</p>
+						<h4 id="menu_dropdown_link_font" class="small_caption">9. Font of the dropdown menu item.</h4>
+						<h4 id="menu_dropdown_link_color" class="small_caption">10. Text color of the dropdown menu item.</h4>
+						<h4 id="menu_dropdown_link_bg" class="small_caption">11. Background Gradient (Color) of the dropdown menu item.</h4>
+						<p>The process of setting up the gradient or color for this element is the same as for "<a href="#menu_bg_gradient">Background Gradient (Color) of the Primary Container</a>".</p>
+						<h4 id="menu_dropdown_link_border_color" class="small_caption">12. Border color between dropdown menu items.</h4>
+						<h4 id="menu_dropdown_link_color_hover" class="small_caption">13. Text color of the dropdown active menu item.</h4>
+						<h4 id="menu_dropdown_link_bg_hover" class="small_caption">14. Background Gradient (Color) of the dropdown active menu item.</h4>
+						<p>The process of setting up the gradient or color for this element is the same as for "<a href="#menu_bg_gradient">Background Gradient (Color) of the Primary Container</a>".</p>
+						<!-- /skin -->
+						<div class="page-header">
+							<h1 id="additional_skin_settings">Additional Skin Settings</h1>
+						</div>
+						<h4><small>Dashboard &#9658; Mega Main Menu &#9658; Skins</small></h4>
+						<h4 class="small_caption">Set Of Installed Fonts</h4>
+						<p>Select the fonts that must be included on the site. Remember that a lot of fonts affect on the speed of load page. Always remove unnecessary fonts.</p>
+						<h4 class="small_caption">Additional Styles (Different Colors for Each Menu Items)</h4>
+						<p>Here you can add and edit highlighting styles. After that you can select these styles for menu item in "Menus -> Your Menu Item -> Style of This Item" option.</p>
+						<h4 class="small_caption" id="custom_icons">Custom Icons</h4>
+						<p>You can add custom raster icons. After saving these settings, icons will become available in a modal window of icons selection. Recommended size 64x64 pixels.</p>
+						<!-- /additional_skin_settings -->
+
+						<div class="page-header">
+							<h1 id="specific_options">Specific Options</h1>
+						</div>
+						<h4><small>Dashboard &#9658; Mega Main Menu &#9658; Specific Options</small></h4>
+						<h4 class="small_caption">Custom CSS</h4>
+						<p>This field is needed in the case when your template has a particular menu location and it needs adjustment. You can place here any necessary custom CSS properties.</p>
+						<h4 class="small_caption">Responsive for Handheld Devices</h4>
+						<p>If this option is enabled, then the menu will be transformed, if the user uses the handheld device.</p>
+						<h4 class="small_caption">Coercive Styles</h4>
+						<p>This option is recommended to use only if styles of the installed theme interfere with the proper display of Mega Main Menu. If this option is checked - all CSS properties for this plugin will have "!important" priority.</p>
+						<h4 class="small_caption">"Indefinite Location" Mode</h4>
+						<p>If this option is checked - all menus will be replaced by the mega menu. This will be useful for templates in which are not defined locations of the menu.</p>
+						<!-- /specific_options -->
+
+						<div class="page-header">
+							<h1 id="menu_item_settings">Settings of the definite item of the menu</h1>
+						</div>
+						<h4><small>Dashboard &#9658; Appearance &#9658; Menus</small></h4>
+						<p>Toggle the item of menu which you want to set.</p>
+						<h3 id="first_level_settings" class="small_caption">Definite Item Settings</h3>
+						<h4 id="standard_wp_settings" class="small_caption">1. Standard WordPress settings of the menu item.</h4>
+						<p>We will leave out the explanation associated with standard WordPress settings of the menu item as they are very simple and understandable. We will consider opportunities of the Mega Main Menu instead.</p>
+						<h4 id="item_icon" class="small_caption">2. icon of the current menu item.</h4>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<p>To select the icon of the menu item follow the next steps:</p>
+								<ol>
+									<li>
+										Click the button "Show Icons".
+									</li>
+									<li>
+										In the modal window that appears, click the icon that you prefer.
+									</li>
+									<li>
+										Click the button "OK" in the upper right corner of the modal window (if you click outside the modal window - icon selection will be canceled and the modal window will be closed).
+									</li>
+								</ol>
+								<p>Notice: the plugin includes a set of more than 1600 vector icons, so loading a modal window can take some of your time and patience.</p>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<a href="src/img/sh_definite_item_first_level.png"><img src="src/img/sh_definite_item_first_level.png" /></a>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+
+						<h4 id="disable_text" class="small_caption">3. Hide Text of This Item.</h4>
+						<p>Use this option if you want to display the menu item without a text. For example, link to the home page can be displayed without a text, and only the "Home" icon can be left.</p>
+						<h4 id="disable_link" class="small_caption">4. Disable Link of This Item.</h4>
+						<p>Use this option if you want to set up the menu item without an active hyperlink. For example: it can be the title for the column in multicolumn dropdown menu.</p>
+
+						<h3 id="dropdown_settings" class="small_caption">Settings of dropdown menus</h3>
+						<p>Notice: these settings can be adjusted only for the first level items of the menu, and the style of displaying all children dropdown elements will depend on these settings. All <strong>examples</strong> here - <a href="http://menu.megamain.com/wp-content/plugins/demo_dashboard_2.html">http://menu.megamain.com/wp-content/plugins/demo_dashboard_2.html</a>.</p>
+						<h4 id="disable_text" class="small_caption">1. Submenu Type.</h4>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7">
+								<ul>
+									<li>
+										<strong>Standard Dropdown.</strong> Use this type to display usual dropdown menu as one column.
+									</li>
+									<li>
+										<strong>Multicolumn Dropdown.</strong> Use this type to display dropdown menu with several columns. Number of columns depends on the option "Number of Columns".
+									</li>
+									<li>
+										<strong>Grid Dropdown.</strong> Use this type to display dropdown menu in the form of a grid. Number of elements placed in one line depends on the option "Number of Columns".
+									</li>
+									<li>
+										<strong>Posts Grid Dropdown.</strong> Use this type to display dropdown menu in the form of a grid using recently added posts. Number of elements placed in one line depends on the option "Number of Columns". Thumbnail picture and icon for each post are selected on the page of editing this post (Look for "Featured image" and "Post Icon" Metaboxes).
+									</li>
+									<li>
+										<strong>Widgets Dropdown.</strong> Use this type to display dropdown menu with Widgets. Select number of columns with the help of the option "Number of Columns". Using this type you can add and edit widgets in the usual place (on page Dashboard -> Appearance -> Widgets).
+									</li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-sm-5 image_container">
+								<a href="src/img/sh_definite_item_dropdown.png"><img src="src/img/sh_definite_item_dropdown.png" /></a>
+								<br />
+								<br />
+								<br />
+								<a href="src/img/sh_multicolumn_instruction.png"><img src="src/img/sh_multicolumn_instruction.png" /></a>
+							</div><!-- /image_container -->
+						</div><!-- /row -->
+						<h4 id="submenu_drops_side" class="small_caption">2. Side for dropdown elements.</h4>
+						<p>Just choose the side to which dropdown elements will unfold. For example: if you set "Drop To Right Side" for this option then dropdown will start at the left side of the initial element and go beyond it to the right.</p>
+						<h4 id="submenu_columns" class="small_caption">3. Number of columns.</h4>
+						<p>This option influences the number of elements in one line for "Grid Dropdowns", the number of columns in the "Multicolumn Dropdown" and "Widgets Dropdown".</p>
+						<h4 id="submenu_enable_full_width" class="small_caption">4. Enable the full width for the sub-menu.</h4>
+						<p>If you check this option the dropdown menu will be stretched to the full width of the primary container.</p>
+						<h4 id="submenu_bg_image" class="small_caption">5. Dropdown Background Image.</h4>
+						<p>Use this area to select and set parameters of the background image for the dropdown item.</p>
+						<!-- /menu_item_settings -->
+
+						<div class="page-header">
+							<h1 id="update">Update</h1>
+						</div>
+						<p>Follow the next steps to update (reinstall) plugin, all these steps are important for the correct working of the plugin:</p>
+						<ol>
+							<li>
+								Deactivate and remove the old version (<strong>all settings will be saved</strong>);
+							</li>
+							<li>
+								Install the new version;
+							</li>
+							<li>
+								Go to "Mega Main Menu settings" page and save settings again (<strong>*important</strong>);
+							</li>
+							<li>
+								Clear cache of the browser (Ctrl + Shift + R few times on the page);
+							</li>
+							<li>
+								All done.
+							</li>
+						</ol>
+						<!-- /update -->
+
+						<div class="page-header">
+							<h1 id="faq">FAQ</h1>
+						</div>
+						<h4 id="max_input_vars" class="small_caption">My menu structure loses some items (or options) when I save the settings.</h4>
+						<p>Cause of this problem is small value of the "max_input_vars" option in the configuration of your server (host). You must increase value of the "max_input_vars". You must to set a value that is twice as large of the current value.</p>
+						<ul>
+							<li>
+								Most hosts have the opportunity to change this value in the "Host Admin Area". 
+								<br /> Example: 
+								<br /> If currently you have max_input_vars = 1000
+								<br /> You need to set max_input_vars = 2000 (or more)
+								<br /> <br /> 
+							</li>
+							<li>
+								You can try to change this value using ".htaccess" file in root directory of the your site. Add one of these lines at end of ".htaccess" file.
+								<pre>php_value max_input_vars 9000
+php_value suhosin.post.max_vars 9000
+php_value suhosin.request.max_vars 9000</pre>
+								<br /> 
+							</li>
+							<li>
+								You can try to change this value using "php.ini". Add this line if you don't find max_input_vars
+								<pre>max_input_vars = 9000</pre>
+								<br /> 
+							</li>
+							<li>
+								If that does not help you, ask your host support "How can I increase the value of the max_input_vars for my site?".
+								<br /> <br /> 
+							</li>
+							<li>
+								Also you can deactivate the options that you do not use to customize the menu structure. It helps reduce the number of options and reduce the load on the server.
+								Example:<br />
+								- If you do not use option "Icon Of The Item" - disable it globally in the "Settings of the structure -> Icon Of The Item -> Disable".<br />
+								- If you do not use option "Description Of The Item" - disable it globally in the "Settings of the structure -> Description Of The Item -> Disable".<br /><br />
+
+								The most unused options, you can try to disable them:<br />
+								- Description Of The Item.<br />
+								- Style Of The Item.<br />
+								- Visibility Control.<br />
+								- Dropdown Background Image.
+							</li>
+						</ul>
+
+
+						<h4 id="ie9" class="small_caption">My menu is displayed incorrectly in IE9 (or older)</h4>
+						<ul>
+							<li>
+								IE9 and older not supported Alpha colors.
+								<br /> In order to fix it, use HEX "#2a6496" instead RGBA "rgba(42,100,150,1)".
+								<br /> <br /> 
+							</li>
+							<li>
+								IE9 and older not fully supported Gradients.
+								<br /> In order to fix it, use flat colors (#2a6496 &gt; #2a6496) instead gradients (#428bca &gt; #2a6496). 
+								<br /> <br /> 
+							</li>
+							<li>
+								Our plugin supports IE8, but only in safe mode, it means that all navigation functions is available but without 100% design matching. MicroSoft officialy stopped support of IE8 in April 2014 - <a href="http://www.microsoft.com/en-us/windows/enterprise/end-of-support.aspx" title="MicroSoft stopped support of IE8">http://www.microsoft.com/en-us/windows/enterprise/end-of-support.aspx</a>. If the MicroSoft stopped supporting their product, all other programmers can also stop supporting it.
+							</li>
+						</ul>
+
+						<h4 id="sticky_on_mobile" class="small_caption">"Sticky" feature does not work on mobile devices.</h4>
+						<p>"Sticky" feature does not work on mobile devices, because if you open the menu, you can not click on the last item, it will always be outside the screen.</p>
+						<p>If you understand that use sticky menu on mobile devices is bad practice, but you still want it - use this code in "Custom CSS" field.</p>
+						<pre>#mega_main_menu.direction-horizontal > .menu_holder.sticky_container
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	border-radius: 0px;
+	z-index: 2000;
+	line-height: 0px;
+	text-align: center;
+}
+#mega_main_menu.direction-horizontal > .menu_holder.sticky_container > .menu_inner
+{
+	display: inline-block;
+}
+#mega_main_menu.direction-horizontal.include-logo > .menu_holder.sticky_container > .menu_inner > .nav_logo,
+#mega_main_menu.direction-horizontal > .menu_holder.sticky_container > .menu_inner > .mega_main_menu_ul
+{
+	vertical-align: top;
+}</pre>
+
+
+						<h4 id="static_searchbox" class="small_caption">Search Box - Static instead Animated.</h4>
+						<p>Add this code in the "Specific Options -> Custom CSS" field, to get static search box instead animated:</p>
+						<pre>.mmm #mega_main_menu li.nav_search_box
+{
+	width: auto !important;
+}
+.mmm #mega_main_menu li.nav_search_box #mega_main_menu_searchform
+{
+	position: relative !important;
+	right: 0px !important;
+	display: block !important;
+}
+.mmm #mega_main_menu li.nav_search_box #mega_main_menu_searchform .field
+{
+	width: 160px !important;
+	max-width 160px !important;
+	padding-left: 8px !important;
+	cursor: text;
+}</pre>
+
+
+						<h4 id="remove_dropdown_arrows" class="small_caption">Remove Dropdown Arrows</h4>
+						<p>Add this code in the "Specific Options -> Custom CSS" field.</p>
+						<pre>/* for 1-st levels */
+#mega_main_menu > .menu_holder > .menu_inner > ul > li > .item_link:after
+{
+	content: none !important;
+}
+/* for 2-nd and other levels */
+#mega_main_menu li.tabs_dropdown > .mega_dropdown > li > .item_link:before, 
+#mega_main_menu li.default_dropdown > .mega_dropdown > .menu-item > .item_link:before
+{
+	content: none !important;
+}</pre>
+
+
+						<h4 id="custom_css_avada" class="small_caption">Custom CSS to correct menu layout in "Avada".</h4>
+						<p>First of all you must to activate "<strong>Specific Options -> Use Coercive Styles</strong>" option.</p>
+						<pre>#mega_main_menu > .menu_holder > .menu_inner > ul > li.nav_search_box #mega_main_menu_searchform .field
+{
+	background-color: transparent !important;
+}
+
+#nav
+{
+	float: none !important;
+}
+
+#mega_main_menu > .menu_holder > .menu_inner > ul
+{
+	width: auto !important;
+}
+
+#snav > *,
+#nav > #nav > *,
+#small-nav .mobile-selector,
+.mega_main_menu .fusion-main-menu-search
+{
+	display: none !important;
+}
+
+#snav > #mega_main_menu,
+#nav > #nav > #mega_main_menu,
+#small-nav #mobile-nav
+{
+	display: block !important;
+}
+
+#wrapper #mega_main_menu > .menu_holder > .menu_inner > ul > li > .item_link,
+#wrapper #mega_main_menu > .menu_holder > .menu_inner > ul > li.multicolumn_dropdown .mega_dropdown > li > .item_link
+{
+	border: 0px none !important;
+}
+
+[class*="mega_main_menu"] #wrapper #nav ul li ul li a:hover
+{
+	background-color: transparent !important;
+}
+</pre>
+
+						<h4 id="custom_css_x" class="small_caption">Custom CSS to correct menu layout in "X" Theme.</h4>
+						<pre>/* Hide logo of the theme */
+.x-navbar .x-brand,
+.x-btn-navbar, 
+.x-btn-navbar.collapsed
+{
+	display: none !important;
+}
+
+/* Fix for mobile menu */
+.x-nav-collapse, 
+.x-nav-collapse.collapse
+{
+	height: auto !important;
+}
+.x-navbar-inner
+{
+	min-height: 0px !important;
+}</pre>
+
+						<h4 id="custom_css_enfold" class="small_caption">Custom CSS to correct menu layout in "Enfold".</h4>
+						<pre>/* Stretch menu to theme layout container */
+#header_main nav
+{
+	position: static !important;
+	display: block !important;
+}
+
+/* Hide unnecessary elements */
+#header_main .logo,
+#mega_main_menu .menu-item-search-dropdown,
+#advanced_menu_toggle, 
+#advanced_menu_hide
+{
+	display: none !important;
+}
+
+/* Auto height of the header */
+#header_main .container
+{
+	height: auto !important;
+	line-height: 1 !important;
+}</pre>
+
+
+						<h4 id="custom_css_jupiter" class="small_caption">Custom CSS to correct menu layout in "Jupiter".</h4>
+						<pre>.mmm .mk-header-nav-container
+{
+	display: block !important;
+}
+.mmm .mk-toolbar-resposnive-icon
+{
+	display: none !important;
+}</pre>
+
+
+						<h4 id="custom_css_divi" class="small_caption">Custom CSS to correct menu layout in "Divi".</h4>
+						<pre>.mmm #top-menu-nav
+{
+display: block !important;
+}
+.mmm #et_mobile_nav_menu
+{
+display: none !important;
+}</pre>
+
+
+						<h4 id="custom_css_twentysixteen" class="small_caption">Custom CSS to correct menu layout in "TwentySixteen".</h4>
+						<pre>/* stretch menu to full wide */
+.mmm .site-header-menu
+{
+display: block !important;
+width: 100% !important;
+}
+/* hide unnecessary menu button */
+.mmm .menu-toggle
+{
+display: none !important;
+}
+/* hide site logo */
+.mmm .site-branding
+{
+display: none !important;
+}</pre>
+
+
+						<!-- /faq -->
+
+						<div class="page-header">
+							<h1 id="for_developers">For developers</h1>
+						</div>
+						<h4 id="mmm_set_configuration" class="small_caption">mmm_set_configuration - to set custom configuration of the plugin using your theme functions.</h4>
+						<pre class="prettyprint">add_filter( 'mmm_set_configuration', 'my_function_to_set_mmm_configuration' );
+
+function my_function_to_set_mmm_configuration ( $default_configuration ) {
+
+	// Get configuration of the plugin that is stored in the DataBase.
+	$saved_configuration = get_option( 'mega_main_menu_options', array() );
+
+	if ( ( $saved_configuration === false ) || empty( $saved_configuration ) ) { // If you do not have a saved configuration in the database - do your code.
+
+		$theme_custom_configuration = $default_configuration;
+
+		$menu_location_name = 'primary-menu'; // name of menu location of your theme.
+
+		// FEW EXAMPLES
+
+		// Format of the checkbox option
+		$theme_custom_configuration[ 'mega_menu_locations' ] = array( $menu_location_name );
+		$theme_custom_configuration[ 'responsive_styles' ] = array( 'true' );
+		$theme_custom_configuration[ $menu_location_name . '_sticky_offset' ] = array( 1 );
+		$theme_custom_configuration[ $menu_location_name . '_first_level_item_height_sticky' ] = array( 80 );
+		$theme_custom_configuration[ $menu_location_name . '_mobile_label' ] = array( 'MENU' );
+		$theme_custom_configuration[ $menu_location_name . '_first_level_separator' ] = array( 'none' );
+
+		// Format of the input_text, textarea, radio option
+		$theme_custom_configuration[ 'custom_css' ] = '.theme_custom_class #mega_main_menu { margin: 10px; }';
+		$theme_custom_configuration[ 'logo_src' ] = 'http://menu.megamain.com/wp-content/plugins/mega_main_menu/src/img/megamain-logo-120x120.png';
+
+		// Format of the group of the inputs (menu_bg_gradient)
+		$theme_custom_configuration[ $menu_location_name . '_menu_bg_gradient' ] = array( 'color1' => '#FFF', 'color2' => '#FFF', 'start' => '0', 'end' => '100', 'orientation' => 'top' ); 
+		$theme_custom_configuration[ $menu_location_name . '_menu_first_level_link_font' ] = array( 'font_family' => 'Inherit', 'font_size' => '13', 'font_weight' => '400' );
+		$theme_custom_configuration[ $menu_location_name . '_menu_first_level_link_color' ] = '#666666'; 
+		$theme_custom_configuration[ $menu_location_name . '_menu_first_level_icon_font' ] = array( 'font_size' => '13');
+		$theme_custom_configuration[ $menu_location_name . '_menu_first_level_link_bg' ] = array( 'color1' => '#FFF', 'color2' => '#FFF', 'start' => '0', 'end' => '100', 'orientation' => 'top' );
+		$theme_custom_configuration[ $menu_location_name . '_menu_first_level_link_color_hover' ] = '#bfd80f';
+		$theme_custom_configuration[ $menu_location_name . '_menu_first_level_link_bg_hover' ] = array( 'color1' => '#bfd80f', 'color2' => '#FFF', 'start' => '2', 'end' => '0', 'orientation' => 'top' );
+		$theme_custom_configuration[ $menu_location_name . '_menu_search_bg' ] = array( '#bfd80f' );
+		$theme_custom_configuration[ $menu_location_name . '_menu_search_color' ] = '#f8f8f8';
+		$theme_custom_configuration[ $menu_location_name . '_menu_dropdown_wrapper_gradient' ] = array( 'color1' => '#ffffff', 'color2' => '#ffffff', 'start' => '0', 'end' => '100', 'orientation' => 'top' ); 
+		$theme_custom_configuration[ $menu_location_name . '_menu_dropdown_link_font' ] = array( 'font_family' => 'Inherit', 'font_size' => '13', 'font_weight' => '300' );
+		$theme_custom_configuration[ $menu_location_name . '_menu_dropdown_link_color' ] = '#666666';
+		$theme_custom_configuration[ $menu_location_name . '_menu_dropdown_icon_font' ] = array( 'font_size' => '13');
+		$theme_custom_configuration[ $menu_location_name . '_menu_dropdown_link_bg' ] = array( 'color1' => 'rgba(255,255,255,0)', 'color2' => 'rgba(255,255,255,0)', 'start' => '0', 'end' => '100', 'orientation' => 'top' ); 
+		$theme_custom_configuration[ $menu_location_name . '_menu_dropdown_plain_text_color' ] = '#666666';
+
+/*
+		// You can print $default_configuration to see full list of options (only in dashboard)
+		print_r( $default_configuration );		
+*/
+
+		add_option( 'mega_main_menu_options', $theme_custom_configuration );
+	} else { // If you have configuration stored in the DataBase - do nothing.
+		return false;
+	}
+
+}</pre>
+						<p>Result in the "DataBase"</p>
+						<pre>wp_options -> option_name = <span class="h_red">mega_main_menu_options<span>
+</pre>
+
+						<h4 id="mmm_skin_extend" class="small_caption">mmm_skin_extend - to add few custom CSS rules which user can not to change.</h4>
+						<pre class="prettyprint">add_filter( 'mmm_skin_extend', 'my_function_to_extend_css' );
+
+function my_function_to_extend_css ( ) {
+	$my_css_rules = '<span class="h_red">.theme_custom_class #mega_main_menu { margin: 10px; }</span>';
+	return $my_css_rules;
+}</pre>
+						<p>Result (at end of file: /plugins/mega_main_menu/src/css/cache.skin.css)</p>
+						<pre>	...	
+	...
+	...
+	<span class="h_red">.theme_custom_class #mega_main_menu { margin: 10px; }</span>
+</pre>
+
+						<h4 id="mmm_container_class" class="small_caption">mmm_container_class - to add extra CSS classes in the "Mega Main Menu" initial container.</h4>
+						<pre class="prettyprint">add_filter( 'mmm_container_class', 'my_function_to_add_classes_in_container' );
+
+function my_function_to_add_classes_in_container ( $default_classes ) {
+	/*
+
+	// You can print $default_classes to see full list of CSS classes of the initial container
+	print_r( $default_classes );
+
+	*/
+
+	// Example
+	$my_css_classes = '';
+	$my_some_variable = 1;
+	if ( $my_some_variable == 1 ) {
+		$my_css_classes .= '<span class="h_red">my_extra_class</span>';
+	}
+	return $my_css_classes;
+}
+</pre>
+						<p>Result</p>
+						<pre>&lt;div id="mega_main_menu" class="primary primary_style-flat ... <span class="h_red">my_extra_class</span>"&gt;
+	...
+		...
+	...
+&lt;/div&gt;
+</pre>
+						<!-- /for_developers -->
+
+						<div class="page-header">
+							<h1 id="support">Support</h1>
+						</div>
+						<p>If you need support, if you have a question or suggestion - leave a message on our support page <a href="http://support.megamain.com/" target="_blank">Support.MegaMain.com</a>.</p>
+						<!-- /support -->
+					</div>
+				</div><!-- class="sidebar" -->
+			</div><!-- class="row" -->
+		</div><!-- class="container" -->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="m_logo col-md-2 col-sm-12 col-xs-12">
+					</div><!-- class="col-" -->
+					<div class="links col-md-8 col-sm-12 col-xs-12">
+						<span><a href="http://megamain.com/">MegaMain.com</a></span>
+					</div><!-- class="col-" -->
+					<div class="coming col-md-2 col-sm-12 col-xs-12">
+					</div><!-- class="col-" -->
+				</div>
+			</div><!-- class="container" -->
+		</div><!-- class="footer" -->
+	</body>
+</html>
